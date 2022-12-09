@@ -1,0 +1,31 @@
+.filter_aside{
+  padding: 0 5px;
+  max-width: 20%;
+  width: 100%;
+  height: auto;
+  .item{
+    padding: 10px 0;
+    max-width: 100%;
+    border-bottom: 1px solid black;
+    span{
+      display: flex;
+      grid-gap: 5px;
+      input[type=radio] {
+        width: 10px;
+        height: 10px;
+        border: 1px solid #fff;
+        padding: 0.5em;
+        -webkit-appearance: none;
+      }
+
+      input[type=radio]:checked {
+        background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center;
+        background-size: 9px 9px;
+      }
+
+      input[type=radio]:focus {
+        outline-color: transparent;
+      }
+    }
+  }
+}
